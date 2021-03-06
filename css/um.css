@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;  
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.815);
+    margin-left: 610px;
+    border-radius: 10%;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    transform: translateY(500%);
+}
+
+body{
+    background-image: url(../img/back3.png);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+a img{
+    transform: translateY(450px); 
+}
+
+a{
+    text-decoration: none;
+}
